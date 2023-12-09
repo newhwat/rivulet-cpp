@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
     
     /* FILE CONTENTS */
     std::string contents = fileBuffer.str();
-    
+    std::cout << "File contents: " << contents << std::endl;
 
     return EXIT_SUCCESS;
 }
