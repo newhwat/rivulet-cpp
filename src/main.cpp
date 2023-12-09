@@ -2,6 +2,12 @@
 #include <fstream>
 #include <sstream>
 
+enum class TypeToken {
+    bounce,
+    stream,
+    int_lit,
+    semicol
+}
 
 int main(int argc, char* argv[]) {
 
@@ -27,7 +33,7 @@ int main(int argc, char* argv[]) {
     
     /* FILE CONTENTS */
     std::string contents = fileBuffer.str();
+    std::cout << "File contents: " << contents << std::endl; // Debug
     
-
     return EXIT_SUCCESS;
 }
