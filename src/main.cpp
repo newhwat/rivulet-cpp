@@ -2,6 +2,12 @@
 #include <fstream>
 #include <sstream>
 
+enum class TypeToken {
+    bounce,
+    stream,
+    int_lit,
+    semicol
+};
 
 int main(int argc, char* argv[]) {
 
@@ -10,7 +16,6 @@ int main(int argc, char* argv[]) {
         std::cerr << "Incorrect Usage. Use..." << std::endl;
         std::cerr << "rivulet <input.rw>" << std::endl;
         return EXIT_FAILURE;
-    }
 
     /* File Reading*/
     std::string filePath = argv[1];
@@ -22,8 +27,6 @@ int main(int argc, char* argv[]) {
     std::stringstream fileBuffer;
     fileBuffer << inputFile.rdbuf();
     inputFile.close();
-    
-
     
     /* FILE CONTENTS */
     std::string contents = fileBuffer.str();
