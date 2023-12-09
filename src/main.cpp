@@ -22,9 +22,12 @@ int main(int argc, char* argv[]) {
     std::stringstream fileBuffer;
     fileBuffer << inputFile.rdbuf();
     inputFile.close();
+    
+
+    
+    /* FILE CONTENTS */
     std::string contents = fileBuffer.str();
     
-    std::cout << "File Contents: " << contents << std::endl; // Debug 
 
     return EXIT_SUCCESS;
 }
