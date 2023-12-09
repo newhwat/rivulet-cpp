@@ -16,6 +16,7 @@ int main(int argc, char* argv[]) {
         std::cerr << "Incorrect Usage. Use..." << std::endl;
         std::cerr << "rivulet <input.rw>" << std::endl;
         return EXIT_FAILURE;
+    }
 
     /* File Reading*/
     std::string filePath = argv[1];
