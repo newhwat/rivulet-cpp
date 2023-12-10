@@ -15,3 +15,5 @@ mkdir build
 cmake -S . -B build
 cmake --build build
 ```
+### Some links for reference
+- [Jack Crenshaw guide](https://compilers.iecc.com/crenshaw/)
