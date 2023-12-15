@@ -2,11 +2,7 @@
 #include <fstream>
 #include <sstream>
 
-enum class TypeToken {
-    _return,
-    int_lit,
-    semicol
-};
+#include "createTokens.h"
 
 int main(int argc, char* argv[]) {
 
