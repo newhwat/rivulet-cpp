@@ -7,6 +7,7 @@
 
 /* Simple Lexer for .rw extension */
 /* Eventually want to create a parser to do this all automatically */
+/* Need to do research on this*/
 
 /* For creating the different tokens */
 enum class TokenType {
