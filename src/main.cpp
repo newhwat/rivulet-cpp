@@ -3,8 +3,7 @@
 #include <sstream>
 
 enum class TypeToken {
-    bounce,
-    stream,
+    _return,
     int_lit,
     semicol
 };
