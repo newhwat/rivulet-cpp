@@ -19,5 +19,5 @@ cmake --build build
 - [Jack Crenshaw guide](https://compilers.iecc.com/crenshaw/)
 - [TutorialsPoint Compiler Design](https://www.tutorialspoint.com/compiler_design/index.htm)
 
-- [] Create keywords to implement.
-- [] Create parser.
+- [ ] Create keywords to implement.
+- [ ] Create parser.
